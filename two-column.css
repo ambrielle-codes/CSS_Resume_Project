@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+.container{
+    margin:2em auto;
+    max-width:60%;
+    box-shadow:5px 5px 15px lightgray;
+}
+
+.grid-container {
+    display:grid;
+    gap:1em;
+    grid-template-columns: 1fr 2fr;
+    background-color:white;
+}
+
+.left-column{
+    background-color:rgb(84, 48, 88);
+    padding: 2em;
+    color:rgb(243, 213, 239);
+    text-shadow: 1px 1px 2px rgb(173, 75, 174);
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    margin: 0 1em;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-text{
+    max-width:100%;
+    margin: 1em 0;
+}
+
+.right-column{
+    padding: 1.5em;
+    background-color:white;
+    color: rgb(84, 48, 88);
+}
+
+section{
+    padding: .5em 0;
+}
+
+.right-column section h2 {
+    padding: .25em 0 .5em 0;
+}
+.left-column section>p {
+    padding: .25em 0;
+}
+.grad-date{
+    padding: .25em 0;
+}
+.job {
+    padding: .5em 0;
+}
+hr {
+    border: 1px solid rgb(243, 213, 239);
+    margin: .5em 0;
+}
+.contact{
+    padding: 1em 0;
+}
+.job-date{
+    font-style:italic;
+    margin:.5em 0;
+}
+.skills-list{
+    list-style-type:none;
+}
